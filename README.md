@@ -11,7 +11,7 @@ A responsive React TypeScript shopping cart application with multi-language supp
 
 ## Live Demo
 
-The application is hosted at: [https://shopping-cart-gr6o.onrender.com](https://shopping-cart-gr6o.onrender.com)
+The application is hosted at: [https://shopping-cart-77b06.web.app/](https://shopping-cart-77b06.web.app/)
 
 ## Screenshots
 
