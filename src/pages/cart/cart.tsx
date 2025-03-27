@@ -3,7 +3,7 @@ import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Headers/Header";
 import Products from "../../components/Products/Products";
 import { fetchCarts } from "../../data/cartApi";
-import { CartsResponse } from "../types/Cart.types";
+import { CartsResponse } from "../../types/Cart.types";
 import "./cart.css";
 
 // Language translations

@@ -9,6 +9,10 @@ A responsive React TypeScript shopping cart application with multi-language supp
 - Product management with add/remove functionality
 - Accessibility compliant
 
+## Live Demo
+
+The application is hosted at: [https://shopping-cart-gr6o.onrender.com](https://shopping-cart-gr6o.onrender.com)
+
 ## Screenshots
 
 ### Desktop View
