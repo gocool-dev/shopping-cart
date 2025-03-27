@@ -1,0 +1,55 @@
+.loading,
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.loading {
+  color: #6c757d;
+}
+
+.error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.cart-main {
+  flex: 1;
+  width: 100%;
+}
+
+/* Add animation for loading state */
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+.loading {
+  animation: pulse 1.5s infinite ease-in-out;
+}

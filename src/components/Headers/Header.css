@@ -1,0 +1,54 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.header-container h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem 0;
+  color: #333;
+}
+
+.header-container p {
+  margin: 0;
+  color: #666;
+  font-size: 0.875rem;
+}
+
+.header-container div:last-child p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Updated for mobile views - title and total price on same level */
+@media (max-width: 800px) {
+  .header-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  
+  .header-container h1 {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0;
+  }
+  
+  .header-container div:last-child {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
+    align-self: center;
+  }
+  
+  .header-container div:first-child p {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+}
